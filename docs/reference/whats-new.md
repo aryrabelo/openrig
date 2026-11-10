@@ -1,7 +1,7 @@
 # What changed in OpenRig 0.7.11
 
-This note is for an agent on an install that was just upgraded to 0.7.11, the aryrabelo fork build of upstream main after
-0.7.10. Over 0.7.10 it adds the OMP install line for the `rigs` skill and carries the upstream commits made on main since
+This note is for an agent on an install that was just upgraded to 0.7.11. That is the aryrabelo fork build of upstream
+main after 0.7.10. Over 0.7.10 it adds the OMP install line for the `rigs` skill and carries the upstream commits made on main since
 that release, including migrations 150 to 159; upstream's release notes (https://github.com/mvschwarz/openrig/releases)
 cover the rest. The sections below are upstream's 0.7.1 notes, kept unchanged: they do not describe 0.7.11. For everything
 OpenRig can do, read the capability map:
