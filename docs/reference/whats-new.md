@@ -1,7 +1,10 @@
-# What changed in OpenRig 0.7.1
+# What changed in OpenRig 0.7.11
 
-This note is for an agent on an install that was just upgraded to 0.7.1. It lists only what behaves differently from
-0.7.0 and what to do about it. For everything OpenRig can do, read the capability map:
+This note is for an agent on an install that was just upgraded to 0.7.11, the aryrabelo fork build of upstream main after
+0.7.10. Over 0.7.10 it adds the OMP install line for the `rigs` skill and carries the upstream commits made on main since
+that release, including migrations 150 to 159; upstream's release notes (https://github.com/mvschwarz/openrig/releases)
+cover the rest. The sections below are upstream's 0.7.1 notes, kept unchanged: they do not describe 0.7.11. For everything
+OpenRig can do, read the capability map:
 `rig context get onboarding-width/public-what-you-can-do.md`. Each release replaces this file, so
 `rig context get reference/whats-new.md` describes the installed version once the upgraded daemon is running. Without
 a running daemon, read `$OPENRIG_HOME/reference/whats-new.md`. The daemon refreshes that copy when it starts, so right
